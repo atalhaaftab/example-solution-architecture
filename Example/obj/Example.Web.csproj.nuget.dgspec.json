@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/talhaaftab/Projects/example-solution-architecture/Example/Example.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/talhaaftab/Projects/example-solution-architecture/Example.Business/Example.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Business/Example.Business.csproj",
+        "projectName": "Example.Business",
+        "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Business/Example.Business.csproj",
+        "packagesPath": "/Users/talhaaftab/.nuget/packages/",
+        "outputPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/talhaaftab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj"
+              },
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Data/Example.Data.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Data/Example.Data.csproj"
+              },
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj",
+        "projectName": "Example.Common",
+        "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj",
+        "packagesPath": "/Users/talhaaftab/.nuget/packages/",
+        "outputPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/talhaaftab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/talhaaftab/Projects/example-solution-architecture/Example.Data/Example.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Data/Example.Data.csproj",
+        "projectName": "Example.Data",
+        "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Data/Example.Data.csproj",
+        "packagesPath": "/Users/talhaaftab/.nuget/packages/",
+        "outputPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/talhaaftab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj"
+              },
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj",
+        "projectName": "Example.Model",
+        "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj",
+        "packagesPath": "/Users/talhaaftab/.nuget/packages/",
+        "outputPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/talhaaftab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/talhaaftab/Projects/example-solution-architecture/Example/Example.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/talhaaftab/Projects/example-solution-architecture/Example/Example.Web.csproj",
+        "projectName": "Example.Web",
+        "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example/Example.Web.csproj",
+        "packagesPath": "/Users/talhaaftab/.nuget/packages/",
+        "outputPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/talhaaftab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Business/Example.Business.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Business/Example.Business.csproj"
+              },
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Common/Example.Common.csproj"
+              },
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Data/Example.Data.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Data/Example.Data.csproj"
+              },
+              "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj": {
+                "projectPath": "/Users/talhaaftab/Projects/example-solution-architecture/Example.Model/Example.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
